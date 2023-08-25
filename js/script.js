@@ -24,7 +24,7 @@ addButton.addEventListener("click", () => {
       tasks[editIndex] = taskText; // Updating existing task
       editIndex = -1; // Reseting editIndex
     }
-    // inputBox.value = ""; // Reseting the input field
+    inputBox.value = ""; // Reseting the input field
     addButton.textContent = "Add";
     saveTasks();
   } else {

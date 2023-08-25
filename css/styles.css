@@ -142,3 +142,24 @@ ul li button.edit-button {
 ul li button.delete-button {
     background: #f0020f;
 }
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 70%;
+    }
+
+    .todo-app {
+        padding: 40px 15px 70px;
+    }
+
+    .row {
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    button#add-button {
+        padding: 15px 20px;
+        font-weight: 400;
+        border-radius: 40px;
+    }
+}
